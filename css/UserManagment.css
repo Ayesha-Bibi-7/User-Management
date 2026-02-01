@@ -1,0 +1,112 @@
+body {
+  background-color: #f5f7fa;
+  font-family: Arial, sans-serif;
+}
+.sidebar {
+  width: 230px;
+  min-height: 94.3vh;
+  background-color: #342f38;
+  font-size: 18px;
+  font-weight: bold;
+}
+.sidebar a {
+  color: white;
+  padding: 12px 20px;
+  display: block;
+  text-decoration: none;
+}
+.sidebar a:hover,
+.sidebar a.active {
+  background-color: #ffffff;
+  color: #342f38;
+
+}
+.content {
+  padding: 20px;
+  width: 100%;
+}
+footer {
+  background-color: #342f38;
+  box-shadow: 0 0 5px 0 gray;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+table tr td{
+    vertical-align: middle;
+}
+td button{
+    margin: 5px; 
+}
+td button i {
+    font-size: 20px;
+}
+.modal-header{
+    background: #0d6efd;
+    color: #fff;
+}
+.modal-body form .inputField{
+    border-left: 5px groove blue;
+    padding-left: 20px;
+    background-color: #f2f2f2;
+}  
+form .inputField > div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}  
+form .inputField > div label{
+    font-size: 20px;
+    font-weight: 500;
+}
+#userForm form .inputField > div label::after{
+    content: "*";
+    color: red;
+}
+ form .inputField > div input{
+      width: 75%;
+      padding: 10px;
+      border: none;
+      outline: none;
+      background: transparent;
+      border: 1px groove grey;
+      border-radius: 10px;
+ }
+ .modal-footer .submit{
+    font-size: 18px;
+ }
+
+ #readData form .inputField > div input{
+    color: #000;
+    font-size: 18px;
+ }
+ .btn-primary{
+  background-color: #342f38;
+  border-color: white;
+ }
+ .btn-primary:hover{
+  background-color: #ffffff;
+  color: #342f38;
+  border-color: #342f38;
+ }
+ .btn-success{
+  background-color: #8b64ab;
+  border-color: white;
+ }
+ .btn-success:hover{
+  background-color: #ffffff;
+  color: #8b64ab;
+  border-color: #8b64ab;
+ }
+ .btn-danger{
+  background-color: #cf4382;
+  border-color: white;
+ }
+ .btn-danger:hover{
+  background-color: #ffffff;
+  color: #cf4382;
+  border-color: #cf4382;
+ }
