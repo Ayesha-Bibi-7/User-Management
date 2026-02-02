@@ -1,1 +1,1 @@
-# User-Management
+# User-Management is an admin dashboard where admin can add, view, update and delete users. This system is implemented by using html, minimal css, boootstrap and javascript only.
